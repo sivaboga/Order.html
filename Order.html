@@ -1,0 +1,116 @@
+ <html>
+	<head>
+	<title>New Document</title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+
+	<style>
+	.col-6{
+		margin-bottom:7px;
+		margin-top:7px;
+		}
+	input[type="text"]{
+		margin-bottom:7px;
+	}
+		</style>
+		</head>
+
+	<body>
+    	<div class="container">
+    		<div class="card">
+    			<div class="card-header bg-primary text-white">
+    				<center>
+    				<h3>Order Method</h3>
+                </center>
+    			</div>
+
+                <div class="card-body>
+                    <form action="#" method="POST">
+    			<div class="row">
+                    <div class="col-4">
+                        <label for="OrderMode" class="control-label">shipmentgrade</label>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Sale</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Purchase</label>
+                    </div>
+                </div>
+            </div>
+
+
+                            <div class="row">
+                                <div class="col-4">
+                                    <label for="uomModel" class="control-label">Order Code</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" id="uomModel" class="form-control"/>
+                                </div>
+                            </div>
+
+
+                            <div class="ard-body>
+                        <form action="#" method="POST">
+                            <div class="row">
+                                <div class="col-4">
+                                    <label for="uomType" class="control-label">Execute Type</label>
+                                </div>
+                                <div class="col-6">
+                                    <select id="uomType" class="form-control">
+                                        <option value="">--SELECT--</option>
+                                        <option value="FIFO">fifo</option>
+                                        <option value="LIO">lifo</option>
+                                        <option value="FCFO">fcfo</option>
+                                        <option value="FEFO">fefo</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-4">
+                                <label for="OrderAccetp" class="control-label">User type</label>
+                            </div>
+                            <div class="col-6">
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+                                <label class="form-check-label" for="materialChecked2">Material checked</label>
+                            </div><br>  
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+                                <label class="form-check-label" for="materialChecked2">Material checked</label>
+                            </div><br>
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="materialChecked2" checked>
+                                <label class="form-check-label" for="materialChecked2">Material checked</label>
+                            </div><br>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                                <div class="col-4">
+                                    <label for="note" class="control-label">Description</label>
+                                </div>
+                                <div class="col-6">
+                                    <textarea id="note" class="form-control"></textarea>
+                                </div>
+                            </div>
+
+
+                            <center><input type="submit" class="btn btn-success" value="create UOM"/></center>
+                        </form>
+                    </div>
+                        <div class="card-footer bg-info text-white">Succesfully Registered </div>
+                        </div>
+                    </div>
+                </body>
+                </html>
